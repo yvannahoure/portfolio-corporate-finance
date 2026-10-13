@@ -15,7 +15,8 @@ Ce projet combine deux volets. Le premier est une **analyse de comparables bours
 **Volet comparables boursiers :**
 1. Consolidation des multiples VE/EBITDA et P/E par secteur (agroalimentaire/staples, télécoms Afrique/Maghreb, valeur de croissance US), avec la source de chaque chiffre.
 2. Calcul d'une fourchette de valorisation pour Danone : application des multiples VE/EBITDA de 3 pairs cotés (Nestlé 14,1x, Unilever 12,7x, General Mills 9,25x) à l'EBITDA propre de Danone, déduction de la dette nette, division par le nombre d'actions, pour obtenir une valeur par action implicite selon chaque comparable.
-3. Synthèse de la fourchette ainsi obtenue avec la valeur issue du DCF (projet 1, scénario central) et le cours de marché actuel, pour une lecture croisée des trois méthodes.
+3. Ajout d'un **multiple médian des pairs cotés** (12,7x), à côté de la moyenne du groupe, car la médiane est moins sensible à une valeur isolée dans un petit échantillon (Vernimmen, chapitre 32, section 3.7) ; une note méthodologique rappelle aussi que ces multiples sont des multiples de marché (participations minoritaires) et n'intègrent pas de prime de contrôle, laquelle s'observe en moyenne autour de 25 % dans les acquisitions de sociétés cotées (Vernimmen, chapitre 32, section 3.6).
+4. Synthèse de la fourchette ainsi obtenue avec la valeur issue du DCF (projet 1, scénario central) et le cours de marché actuel, pour une lecture croisée des quatre points de référence (3 comparables + médiane) face au DCF et au marché.
 
 **Volet M&A (mandat Evian) :**
 1. Définition des critères de cible (Europe, alimentation infantile bio/sans sucre ajouté, 1 à 300 M EUR de chiffre d'affaires, 0-14 ans).
@@ -26,7 +27,7 @@ Ce projet combine deux volets. Le premier est une **analyse de comparables bours
 
 ## Key findings
 
-- La fourchette de valorisation par comparables pour Danone s'étend de **45,80 EUR/action (General Mills, borne basse)** à une valeur DCF centrale de **84,12 EUR/action (borne haute)**, le cours de marché actuel (59,50 EUR) se situant dans le bas de cette fourchette - une lecture convergente avec le DCF du projet 1, sans constituer une recommandation d'investissement.
+- La fourchette de valorisation par comparables pour Danone s'étend de **45,80 EUR/action (General Mills, borne basse)** à une valeur DCF centrale de **87,41 EUR/action (borne haute)**, le cours de marché actuel (59,50 EUR) se situant dans le bas de cette fourchette, et le multiple médian des pairs cotés (67,50 EUR/action) au centre de cette même fourchette : une lecture convergente avec le DCF du projet 1, sans constituer une recommandation d'investissement.
 - La lecture croisée multiple de marché / multiple de DCF diffère selon le contexte : pour Danone, le DCF se rapproche des pairs cotés alors que le marché price en dessous (lecture favorable) ; pour Tesla, l'écart est inverse et massif (le marché price une optionalité hors flux actuels) ; pour Sonatel, le comparable coté valide la lecture de marché plutôt que celle du DCF.
 - Sur le mandat Evian : **Smileat** (Espagne, 21 M EUR de chiffre d'affaires 2025, +26 % de croissance, leader bio indépendant, 49 % de part de marché sur le baby food bio espagnol) est la cible prioritaire retenue, avec Yooji et Popote en options de repli. Un axe de croissance alternatif (nutrition fonctionnelle) est proposé, appuyé sur les précédents réels Huel et MADE Group.
 
@@ -42,8 +43,8 @@ Ce projet combine deux volets. Le premier est une **analyse de comparables bours
 
 ## Limitations
 
-- Le mandat M&A sur Evian est une **recherche fictive réalisée dans le cadre d'un test technique de recrutement pour Collaboration Capital** - elle ne reflète aucune stratégie réelle d'Evian ou de Danone, et ne doit pas être lue comme une recommandation d'acquisition réelle.
-- La fourchette de valorisation par comparables applique des multiples de pairs à l'EBITDA de Danone sans ajustement de taille, de croissance ou de profil de risque relatif - une simplification assumée à but pédagogique.
+- Le mandat M&A sur Evian est une **recherche fictive réalisée dans le cadre d'un test technique de recrutement pour Collaboration Capital** : elle ne reflète aucune stratégie réelle d'Evian ou de Danone, et ne doit pas être lue comme une recommandation d'acquisition réelle.
+- La fourchette de valorisation par comparables applique des multiples de pairs à l'EBITDA de Danone sans ajustement de taille, de croissance ou de profil de risque relatif : une simplification assumée à but pédagogique.
 - La comparaison des multiples entre Danone, Sonatel et Tesla (volet "lecture transversale") met en regard des secteurs et des profils de risque très différents ; elle est présentée comme un exercice de lecture croisée, pas comme une équivalence de valorisation.
 
 ## Sources

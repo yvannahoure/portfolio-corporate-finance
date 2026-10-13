@@ -2,7 +2,7 @@
 
 ## Project overview
 
-Ce projet construit une valorisation DCF (Discounted Cash Flow) complète et documentée sur une entreprise cotée française - **Danone (Euronext Paris : BN)** - choisie comme étude de cas principale. Deux DCF secondaires, sur **Sonatel** (BRVM : SNTS, opérateur télécom ouest-africain) et **Tesla** (NASDAQ : TSLA, valeur de croissance américaine), complètent l'exercice pour montrer la méthode appliquée à des profils d'entreprise très différents (groupe mature de consommation, télécom émergent, valeur de croissance).
+Ce projet construit une valorisation DCF (Discounted Cash Flow) complète et documentée sur une entreprise cotée française, **Danone (Euronext Paris : BN)**, choisie comme étude de cas principale. Deux DCF secondaires, sur **Sonatel** (BRVM : SNTS, opérateur télécom ouest-africain) et **Tesla** (NASDAQ : TSLA, valeur de croissance américaine), complètent l'exercice pour montrer la méthode appliquée à des profils d'entreprise très différents (groupe mature de consommation, télécom émergent, valeur de croissance).
 
 Toutes les données historiques (chiffre d'affaires, marges, dette, cours de bourse) proviennent de publications réelles et sourcées. Les hypothèses de projection (croissance future, WACC, prime de risque, croissance terminale) sont des estimations personnelles, systématiquement distinguées des données sourcées et documentées dans le modèle.
 
@@ -25,11 +25,11 @@ Toutes les données historiques (chiffre d'affaires, marges, dette, cours de bou
 
 ## Key findings
 
-**Danone (projet principal)** : valeur implicite par action de **84,12 EUR** contre un cours de marché de **59,50 EUR**, soit un écart de **+41,4 %**. Le multiple VE/EBITDA implicite du DCF (15,35x) se situe dans la fourchette des comparables cotés (Nestlé 14,1x, Unilever 12,7x), alors que le marché price Danone en dessous (11,43x implicite) - une lecture cohérente avec une sous-valorisation relative plutôt qu'une anomalie de modèle.
+**Danone (projet principal)** : valeur implicite par action de **87,41 EUR** contre un cours de marché de **59,50 EUR**, soit un écart de **+46,9 %**. Le multiple VE/EBITDA implicite du DCF (15,87x) se situe dans la fourchette des comparables cotés (Nestlé 14,1x, Unilever 12,7x), alors que le marché price Danone en dessous (11,43x implicite) : une lecture cohérente avec une sous-valorisation relative plutôt qu'une anomalie de modèle. Un recoupement par multiple de sortie (cf. guide BIWS) confirme cette lecture : la valeur terminale du DCF implique un multiple de sortie de 14,7x, proche du multiple médian des comparables (12,7x).
 
-**Sonatel (secondaire)** : la dette nette de Sonatel n'étant pas publiée à une maille fiable, le modèle retient une lecture **indicative de la valeur d'entreprise uniquement** (6 006 Md FCFA), sans pont vers une valeur des fonds propres ni conclusion de potentiel de hausse ou de baisse. Le multiple VE/EBITDAaL implicite du DCF (6,5x) est supérieur au multiple implicite de marché (4,9x) et au comparable coté Maroc Telecom (4,9x) - un écart présenté comme une lecture croisée, pas comme une recommandation.
+**Sonatel (secondaire)** : la dette nette de Sonatel n'étant pas publiée à une maille fiable, le modèle retient une lecture **indicative de la valeur d'entreprise uniquement** (6 327,8 Md FCFA), sans pont vers une valeur des fonds propres ni conclusion de potentiel de hausse ou de baisse. Le multiple VE/EBITDAaL implicite du DCF (6,9x) est supérieur au multiple implicite de marché (4,9x) et au comparable coté Maroc Telecom (4,9x) : un écart présenté comme une lecture croisée, pas comme une recommandation. Le recoupement par multiple de sortie sur l'EBITDAaL implicite de l'année 5 (5,9x) reste également proche de ce comparable régional.
 
-**Tesla (secondaire)** : valeur implicite de **43 USD/action** contre un cours de marché de **379,26 USD**, soit un écart de **-88,6 %**. Ce DCF sur les seuls flux actuels ne capture pas les paris du marché sur des relais de croissance non encore dans les comptes (robotaxi/FSD, Optimus, stockage d'énergie) - l'écart est présenté comme un constat méthodologique, pas une erreur de calcul.
+**Tesla (secondaire)** : valeur implicite de **45,28 USD/action** contre un cours de marché de **379,26 USD**, soit un écart de **-88,1 %**. Ce DCF sur les seuls flux actuels ne capture pas les paris du marché sur des relais de croissance non encore dans les comptes (robotaxi/FSD, Optimus, stockage d'énergie) : l'écart est présenté comme un constat méthodologique, pas une erreur de calcul.
 
 ## Files included
 

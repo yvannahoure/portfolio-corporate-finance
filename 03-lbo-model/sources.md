@@ -3,7 +3,7 @@
 - Cours de bourse Fnac Darty, Euronext Paris - relevé le 12/10/2026
 - Nombre d'actions en circulation, rapport annuel Fnac Darty FY2025
 - Dette financière brute hors IFRS16 FY2025 (958 M€), communiqué de résultats annuels Fnac Darty (fnacdarty.com)
-- Trésorerie et équivalents de trésorerie FY2025 (1 104 M€), communiqué de résultats annuels Fnac Darty (fnacdarty.com) - Fnac Darty est en position de trésorerie nette (-146 M€), pas en dette nette
+- Trésorerie et équivalents de trésorerie FY2025 (1 104 M€), communiqué de résultats annuels Fnac Darty (fnacdarty.com) : Fnac Darty est en position de trésorerie nette (-146 M€), pas en dette nette
 - Résultat opérationnel courant (EBIT) FY2025, communiqué de résultats annuels Fnac Darty (fnacdarty.com)
 
 ## Avertissement

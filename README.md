@@ -34,4 +34,5 @@ Ce qui m'intéresse : lire une entreprise par ses chiffres - un modèle DCF, un 
 
 ## Contact
 
+- Portfolio en ligne : [yvannahoure.github.io/portfolio-corporate-finance](https://yvannahoure.github.io/portfolio-corporate-finance/)
 - LinkedIn : [linkedin.com/in/yvann-ahoure-a41191104](https://www.linkedin.com/in/yvann-ahoure-a41191104/)
