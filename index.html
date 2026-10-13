@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Yvann Ahoure - Portfolio Corporate Finance</title>
+<meta name="description" content="Portfolio de 6 études de cas en finance d'entreprise : DCF, modèle 3 états, LBO, due diligence financière, comparables boursiers, M&amp;A, business plan et pitch deck.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+:root{
+  --bg:#EEF1F0;
+  --surface:#FFFFFF;
+  --fg:#15211D;
+  --muted:#5B6B64;
+  --border:#D7DED9;
+  --accent:#0F6B5C;
+  --accent-soft:#DCEAE5;
+  --font-display:'Fraunces',Georgia,serif;
+  --font-body:'IBM Plex Sans',-apple-system,BlinkMacSystemFont,sans-serif;
+  --font-mono:'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0E1512; --surface:#16211C; --fg:#E7ECE9; --muted:#8FA39A;
+    --border:#28362F; --accent:#4FD1A5; --accent-soft:#163227; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0E1512; --surface:#16211C; --fg:#E7ECE9; --muted:#8FA39A;
+  --border:#28362F; --accent:#4FD1A5; --accent-soft:#163227; color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{background:var(--bg);color:var(--fg);font-family:var(--font-body)}
+.navbar{position:sticky;top:0;z-index:10;background:var(--bg);border-bottom:1px solid var(--border)}
+.navbar-inner{max-width:880px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:18px;padding:14px 20px}
+.mark{flex:none;width:30px;height:30px;border-radius:4px;background:var(--accent);display:flex;align-items:center;justify-content:center;font-family:var(--font-mono);font-weight:600;font-size:12.5px;color:var(--bg)}
+.navlinks{display:flex;gap:20px;overflow-x:auto;scrollbar-width:none}
+.navlinks::-webkit-scrollbar{display:none}
+.navlinks a{font-family:var(--font-mono);font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;color:var(--muted);white-space:nowrap}
+.navlinks a:hover{color:var(--accent)}
+.wrap{max-width:880px;margin:0 auto;padding-inline:20px;padding-block:48px 80px}
+.eyebrow{font-family:var(--font-mono);font-size:12.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin:0 0 18px}
+h1{font-family:var(--font-display);font-weight:600;font-size:clamp(34px,7vw,52px);line-height:1.08;letter-spacing:-.01em;margin:0 0 14px;text-wrap:balance}
+.role{font-size:clamp(16px,2.6vw,19px);color:var(--muted);max-width:60ch;margin:0 0 36px;line-height:1.5}
+.contact-row{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;margin-bottom:8px}
+a.link{color:var(--fg);text-decoration:none;border-bottom:1px solid var(--accent)}
+a.link:hover{color:var(--accent)}
+.copybtn{font-family:var(--font-mono);font-size:13px;color:var(--muted);background:none;border:1px solid var(--border);padding:5px 10px;cursor:pointer;border-radius:3px}
+.copybtn:hover{border-color:var(--accent);color:var(--accent)}
+section{margin-top:72px}
+h2{font-family:var(--font-display);font-size:13px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 28px;padding-bottom:12px;border-bottom:1px solid var(--border)}
+p.lede{font-size:16.5px;line-height:1.7;max-width:66ch;color:var(--fg)}
+p.lede + p.lede{margin-top:16px}
+.skillgrid{display:grid;gap:22px}
+@media (min-width:560px){ .skillgrid{grid-template-columns:1fr 1fr} }
+.skillgroup .k{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:10px}
+.chips{display:flex;flex-wrap:wrap;gap:7px}
+.chip{font-family:var(--font-mono);font-size:12.5px;border:1px solid var(--border);padding:4px 9px;border-radius:3px;color:var(--fg)}
+.pcard{border:1px solid var(--border);background:var(--surface);margin-bottom:26px;overflow:hidden;transition:border-color .15s}
+.pcard:hover{border-color:var(--accent)}
+.pshot{width:100%;display:block;border-bottom:1px solid var(--border);background:#fff}
+.pbody{padding:24px 26px 26px}
+.phead{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:6px}
+.phead h3{font-family:var(--font-body);font-size:18px;font-weight:600;margin:0}
+.ptag{font-family:var(--font-mono);font-size:11px;color:var(--accent);text-transform:uppercase;letter-spacing:.06em}
+.pdesc{font-size:14.5px;line-height:1.65;color:var(--fg);max-width:70ch;margin:10px 0 18px}
+.pstats{display:flex;gap:24px;flex-wrap:wrap;margin-bottom:18px;padding-bottom:18px;border-bottom:1px solid var(--border)}
+.pstat .v{font-family:var(--font-mono);font-size:18px;font-weight:600;color:var(--accent);font-variant-numeric:tabular-nums}
+.pstat .l{font-size:11.5px;color:var(--muted);margin-top:3px;max-width:22ch;line-height:1.4}
+.plinks{display:flex;gap:16px;flex-wrap:wrap;font-size:13.5px}
+.plinks a{color:var(--fg);text-decoration:none;border-bottom:1px solid var(--accent)}
+.plinks a:hover{color:var(--accent)}
+.ptagsrow{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px}
+.entry{display:grid;grid-template-columns:1fr auto;gap:4px 16px;padding-block:22px;border-bottom:1px solid var(--border);align-items:baseline}
+.entry:first-of-type{padding-top:0}
+.entry .org{font-weight:600;font-size:16.5px}
+.entry .role2{color:var(--muted);font-size:14.5px;margin-top:2px}
+.entry .when{font-family:var(--font-mono);font-size:12.5px;color:var(--muted);white-space:nowrap;font-variant-numeric:tabular-nums}
+footer{margin-top:88px;padding-top:28px;border-top:1px solid var(--border)}
+footer p{color:var(--muted);font-size:13.5px;max-width:56ch;line-height:1.6}
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(8px);background:var(--fg);color:var(--bg);font-family:var(--font-mono);font-size:12.5px;padding:9px 16px;border-radius:4px;opacity:0;pointer-events:none;transition:opacity .2s, transform .2s}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="navbar-inner">
+    <span class="mark">YA</span>
+    <div class="navlinks">
+      <a href="#profil">Profil</a>
+      <a href="#projets">Projets</a>
+      <a href="#parcours">Parcours</a>
+      <a href="#competences">Compétences</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <p class="eyebrow">Corporate Finance - Paris / Afrique de l'Ouest</p>
+  <h1>Yvann Ahoure</h1>
+  <p class="role">Analyste finance d'entreprise - valorisation, M&amp;A et contrôle de gestion, avec un regard sur les marchés d'Afrique francophone.</p>
+
+  <div class="contact-row">
+    <a class="link" href="https://www.linkedin.com/in/yvann-ahoure-a41191104/" target="_blank" rel="noopener">LinkedIn</a>
+    <a class="link" href="https://github.com/yvannahoure/portfolio-corporate-finance" target="_blank" rel="noopener">Code source sur GitHub</a>
+    <button class="copybtn" id="emailBtn" type="button">yvannahoure@outlook.fr - copier</button>
+  </div>
+
+  <section id="profil">
+    <h2>Profil</h2>
+    <p class="lede">Diplômé d'un MSc Corporate Finance &amp; FinTech à la Clermont School of Business, je me suis construit un parcours à cheval entre plusieurs terrains : valorisation d'entreprises privées aux États-Unis (Mercer Capital), pilotage financier d'une ONG internationale depuis Paris (AMREF Health Africa France), screening de cibles M&amp;A à Abidjan (First Capital Group), et contrôle de gestion d'une structure de santé en Côte d'Ivoire (EMSG).</p>
+    <p class="lede">Ce qui m'intéresse : lire une entreprise par ses chiffres, qu'il s'agisse d'un modèle DCF, d'un rapprochement bancaire ou d'un tableau de bord, et faire le pont entre la rigueur financière occidentale et des marchés africains en pleine structuration.</p>
+  </section>
+
+  <section id="projets">
+    <h2>Projets</h2>
+    <p class="lede" style="margin-bottom:32px">Six études de cas construites en autonomie à partir de données publiques ou d'hypothèses personnelles clairement identifiées, pour démontrer une méthodologie complète de bout en bout. Chaque modèle Excel recalcule sans aucune erreur de formule, avec des hypothèses personnelles systématiquement distinguées des données sourcées.</p>
+
+    <div class="pcard">
+      <img class="pshot" src="01-dcf-valuation/screenshots/Danone_DCF_Model_tab-2.jpg" alt="Dashboard du DCF Danone : valeur implicite par action vs cours de marché, multiples comparables">
+      <div class="pbody">
+        <div class="phead">
+          <h3>Valorisation DCF</h3>
+          <span class="ptag">DCF · WACC · CAPM</span>
+        </div>
+        <p class="pdesc">DCF à deux étages sur Danone (étude principale), avec Sonatel et Tesla comme études secondaires pour montrer la méthode sur des profils très différents : groupe mature de consommation, télécom émergent, valeur de croissance. WACC construit par CAPM à partir de données de marché réelles.</p>
+        <div class="pstats">
+          <div class="pstat"><div class="v">87,4 €</div><div class="l">valeur implicite Danone, contre 59,5 € de cours (+46,9 %)</div></div>
+          <div class="pstat"><div class="v">15,87x</div><div class="l">VE/EBITDA implicite du DCF vs 11,43x de marché</div></div>
+        </div>
+        <div class="plinks">
+          <a href="https://github.com/yvannahoure/portfolio-corporate-finance/tree/main/01-dcf-valuation" target="_blank" rel="noopener">Explorer le dossier complet →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pcard">
+      <img class="pshot" src="02-three-statement-model/screenshots/Three_Statement_Model_tab-13.jpg" alt="Dashboard du modèle 3 états Fnac Darty : chiffre d'affaires, flux de trésorerie, valeur par action">
+      <div class="pbody">
+        <div class="phead">
+          <h3>Modèle 3 états intégré + DCF</h3>
+          <span class="ptag">Modèle intégré · Forecasting</span>
+        </div>
+        <p class="pdesc">Compte de résultat, bilan et flux de trésorerie intégrés sur 5 ans pour Fnac Darty, avec schedules dédiées (fonds de roulement, immobilisations, dette avec cash sweep) et un DCF alimenté directement par les projections du modèle. 12 onglets, équilibre bilanciel exact sur toute la période.</p>
+        <div class="pstats">
+          <div class="pstat"><div class="v">24,21 €</div><div class="l">valeur implicite, contre 34,40 € de cours réel (-29,6 %)</div></div>
+          <div class="pstat"><div class="v">12/12</div><div class="l">contrôles de cohérence du modèle à "OK"</div></div>
+        </div>
+        <div class="plinks">
+          <a href="https://github.com/yvannahoure/portfolio-corporate-finance/tree/main/02-three-statement-model" target="_blank" rel="noopener">Explorer le dossier complet →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pcard">
+      <img class="pshot" src="03-lbo-model/screenshots/LBO_Model_tab-5.jpg" alt="Onglet Returns du modèle LBO : MOIC, IRR et pont de création de valeur">
+      <div class="pbody">
+        <div class="phead">
+          <h3>Modèle LBO</h3>
+          <span class="ptag">LBO · Private Equity · IRR/MOIC</span>
+        </div>
+        <p class="pdesc">Exercice illustratif de rachat par effet de levier sur Fnac Darty : sources &amp; emplois, échéancier de dette avec cash sweep, calcul du rendement du sponsor et pont de création de valeur décomposé en quatre contributions, réconcilié exactement avec l'écart de valeur des fonds propres entrée-sortie.</p>
+        <div class="pstats">
+          <div class="pstat"><div class="v">4,97x</div><div class="l">MOIC sur un horizon de détention de 5 ans</div></div>
+          <div class="pstat"><div class="v">37,8 %</div><div class="l">IRR du sponsor, sans pari sur l'expansion de multiple</div></div>
+        </div>
+        <div class="plinks">
+          <a href="https://github.com/yvannahoure/portfolio-corporate-finance/tree/main/03-lbo-model" target="_blank" rel="noopener">Explorer le dossier complet →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pcard">
+      <img class="pshot" src="04-transaction-services-dd/screenshots/Financial_DD_Analysis_tab-2.jpg" alt="Quality of Earnings : EBITDA courant estimé et tendance de marge">
+      <div class="pbody">
+        <div class="phead">
+          <h3>Transaction Services / Due Diligence financière</h3>
+          <span class="ptag">Due Diligence · Quality of Earnings</span>
+        </div>
+        <p class="pdesc">Exercice de due diligence financière sur Fnac Darty : analyse de la qualité du résultat, pont de réconciliation entre résultat opérationnel courant et résultat net publié, et identification de points de vigilance à partir des seules informations disponibles publiquement, en nommant explicitement les limites plutôt que de les dissimuler.</p>
+        <div class="pstats">
+          <div class="pstat"><div class="v">171→203 M€</div><div class="l">résultat opérationnel courant, en hausse sur 3 exercices</div></div>
+          <div class="pstat"><div class="v">5</div><div class="l">points de vigilance documentés (risk flags)</div></div>
+        </div>
+        <div class="plinks">
+          <a href="https://github.com/yvannahoure/portfolio-corporate-finance/tree/main/04-transaction-services-dd" target="_blank" rel="noopener">Explorer le dossier complet →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pcard">
+      <img class="pshot" src="05-comparable-company-analysis/screenshots/Trading_Comps_tab-3.jpg" alt="Fourchette de valorisation Danone par comparables boursiers">
+      <div class="pbody">
+        <div class="phead">
+          <h3>Comparables boursiers &amp; M&amp;A</h3>
+          <span class="ptag">Trading Comps · M&amp;A</span>
+        </div>
+        <p class="pdesc">Fourchette de valorisation pour Danone par application des multiples de ses pairs cotés, confrontée au DCF et au cours de marché. Complété par un vrai mandat de screening M&amp;A (test technique de recrutement pour Collaboration Capital) identifiant une cible d'acquisition pour Evian dans l'alimentation infantile biologique.</p>
+        <div class="pstats">
+          <div class="pstat"><div class="v">45,8-87,4 €</div><div class="l">fourchette de valorisation Danone par comparables + DCF</div></div>
+          <div class="pstat"><div class="v">Smileat</div><div class="l">cible M&amp;A retenue pour Evian (21 M€ de CA, +26 %)</div></div>
+        </div>
+        <div class="plinks">
+          <a href="https://github.com/yvannahoure/portfolio-corporate-finance/tree/main/05-comparable-company-analysis" target="_blank" rel="noopener">Explorer le dossier complet →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pcard">
+      <img class="pshot" src="06-business-plan-pitch-deck/screenshots/Business_Plan_Model_tab-09.jpg" alt="Dashboard du business plan KobaPay : chiffre d'affaires, marge d'EBITDA et trésorerie de clôture, 2027F-2031F">
+      <div class="pbody">
+        <div class="phead">
+          <h3>Business Plan &amp; Pitch Deck</h3>
+          <span class="ptag">Business Plan · Startup · Pitch Deck</span>
+        </div>
+        <p class="pdesc">Plan d'affaires sur 5 ans et pitch deck de levée de fonds seed pour KobaPay, une fintech de paiement mobile et d'épargne de groupe digitalisée <strong>entièrement fictive</strong>, inventée pour cet exercice. Le modèle (acquisition d'utilisateurs, trois moteurs de revenu, trésorerie, cap table) et le pitch deck qui en découle sont ancrés dans des données de marché réelles et sourcées sur l'inclusion financière et le mobile money en Afrique de l'Ouest.</p>
+        <div class="pstats">
+          <div class="pstat"><div class="v">x31</div><div class="l">croissance du chiffre d'affaires entre 2027F et 2031F</div></div>
+          <div class="pstat"><div class="v">65,9 %</div><div class="l">marge d'EBITDA atteinte en 2031F, positive dès 2028F</div></div>
+        </div>
+        <div class="plinks">
+          <a href="https://github.com/yvannahoure/portfolio-corporate-finance/tree/main/06-business-plan-pitch-deck" target="_blank" rel="noopener">Explorer le dossier complet →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="parcours">
+    <h2>Parcours</h2>
+
+    <div class="entry">
+      <div>
+        <div class="org">Mercer Capital</div>
+        <div class="role2">Financial Analyst Intern - Memphis (à distance)</div>
+      </div>
+      <div class="when">04/2026 - 08/2026</div>
+    </div>
+
+    <div class="entry">
+      <div>
+        <div class="org">AMREF Health Africa France</div>
+        <div class="role2">Financial Analyst, Programmes Humanitaires - Paris</div>
+      </div>
+      <div class="when">10/2025 - 03/2026</div>
+    </div>
+
+    <div class="entry">
+      <div>
+        <div class="org">First Capital Group</div>
+        <div class="role2">Investment Analyst - Abidjan</div>
+      </div>
+      <div class="when">04/2024 - 06/2024</div>
+    </div>
+
+    <div class="entry">
+      <div>
+        <div class="org">EMSG - Espace Médical Saint Georges</div>
+        <div class="role2">Contrôleur Financier - Abidjan</div>
+      </div>
+      <div class="when">06/2023 - 08/2023</div>
+    </div>
+  </section>
+
+  <section id="competences">
+    <h2>Compétences</h2>
+    <div class="skillgrid">
+      <div class="skillgroup">
+        <div class="k">Valorisation &amp; modélisation financière</div>
+        <div class="chips">
+          <span class="chip">DCF</span><span class="chip">Comparables boursiers</span><span class="chip">Multiples de transaction</span><span class="chip">WACC (CAPM)</span><span class="chip">Modèle 3 états intégré</span><span class="chip">Sensibilité</span>
+        </div>
+      </div>
+      <div class="skillgroup">
+        <div class="k">M&amp;A &amp; transactions</div>
+        <div class="chips">
+          <span class="chip">Screening de cibles</span><span class="chip">Due diligence financière</span><span class="chip">LBO</span><span class="chip">Pitch decks</span><span class="chip">Business plan</span>
+        </div>
+      </div>
+      <div class="skillgroup">
+        <div class="k">FP&amp;A &amp; contrôle de gestion</div>
+        <div class="chips">
+          <span class="chip">Budget vs réalisé</span><span class="chip">Forecasting</span><span class="chip">Rapprochements bancaires</span><span class="chip">Revue comptable</span><span class="chip">Tableaux de bord</span>
+        </div>
+      </div>
+      <div class="skillgroup">
+        <div class="k">Outils</div>
+        <div class="chips">
+          <span class="chip">Excel avancé (TCD, formules)</span><span class="chip">PowerPoint</span><span class="chip">Power BI</span><span class="chip">Python (notions)</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <p>Basé à Paris, ouvert aux opportunités en finance d'entreprise en France comme en Afrique de l'Ouest. Le plus simple pour échanger : LinkedIn ou email.</p>
+    <div class="contact-row" style="margin-top:14px">
+      <a class="link" href="https://www.linkedin.com/in/yvann-ahoure-a41191104/" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="link" href="https://github.com/yvannahoure/portfolio-corporate-finance" target="_blank" rel="noopener">GitHub</a>
+      <button class="copybtn" id="emailBtn2" type="button">yvannahoure@outlook.fr - copier</button>
+    </div>
+  </footer>
+
+</div>
+
+<div class="toast" id="toast">Copié</div>
+
+<script>
+function wireCopy(id){
+  var btn = document.getElementById(id);
+  if(!btn) return;
+  btn.addEventListener('click', function(){
+    var text = 'yvannahoure@outlook.fr';
+    var toast = document.getElementById('toast');
+    function flash(){
+      toast.classList.add('show');
+      setTimeout(function(){ toast.classList.remove('show'); }, 1400);
+    }
+    try{
+      navigator.clipboard.writeText(text).then(flash, function(){ fallbackCopy(); });
+    }catch(e){ fallbackCopy(); }
+    function fallbackCopy(){
+      try{
+        var ta = document.createElement('textarea');
+        ta.value = text; ta.style.position='fixed'; ta.style.opacity='0';
+        document.body.appendChild(ta); ta.focus(); ta.select();
+        document.execCommand('copy');
+        document.body.removeChild(ta);
+      }catch(e){}
+      flash();
+    }
+  });
+}
+wireCopy('emailBtn');
+wireCopy('emailBtn2');
+</script>
+
+</body>
+</html>
