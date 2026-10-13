@@ -1,0 +1,23 @@
+assumption,value,basis
+takeover_premium,20.00%,"Author assumption, illustrative training exercise - NOT a real deal"
+offer_price_per_share,41.28 EUR,Derived: 34.40 x 1.20
+transaction_fees,2.00% of total uses,Author assumption
+da_percent_revenue,3.40%,"Author assumption, used to derive entry EBITDA - consistent with project 4 (Transaction Services DD)"
+entry_ebitda_derived,554.2 EUR million,Derived: EBIT 203 + D&A estimate (3.4% x FY2025 revenue of 10330)
+entry_ev_ebitda_multiple,1.9x,"Derived: entry EV (equity price + net debt) / entry EBITDA - mechanically low because the target's net cash position is already in the equity price paid"
+senior_debt_leverage,1.7x EBITDA,"Author assumption, deliberately reduced vs a typical LBO on a leveraged target, because the structure starts from a net cash position"
+min_cash_retained_pct_revenue,2.00% of revenue,"Author assumption - operating cash floor kept on NewCo's balance sheet, not available to fund the transaction"
+min_cash_retained_eur,206.6 EUR million,Derived: 2% x FY2025 revenue
+excess_cash_used_to_fund_deal,897.4 EUR million,"Derived: real FY2025 cash (1104) minus the retained minimum cash floor (206.6)"
+sponsor_equity_check,374.2 EUR million (28.4% of the external financing need),"Derived (plug) - balances total sources to total uses"
+hold_period,5 years,Author assumption
+ebitda_growth_pa,3.00%,Author assumption
+revenue_growth_pa,2.00%,Author assumption
+capex_percent_revenue,2.50%,Author assumption
+wc_change_pct_of_revenue_change,4.00%,Author assumption
+debt_interest_rate,6.50%,Author assumption
+tax_rate,25.00%,French standard corporate tax rate
+exit_multiple,= entry multiple (no re-rating),"Deliberately conservative assumption, author"
+cash_sweep,"MIN(MAX(FCF available, 0), opening debt balance)","Author assumption - full tax-waterfall cash sweep (EBITDA -> D&A -> EBIT -> interest -> tax -> capex -> working capital change -> FCF), capped at the outstanding senior debt; excess FCF after full repayment accumulates as cash rather than disappearing from the model"
+result_moic,4.97x,Model output
+result_irr,37.80%,Model output

@@ -1,0 +1,20 @@
+company,assumption,value,basis
+Danone,risk_free_rate,4.90%,"French OAT 10Y yield - explicitly flagged as above long-run average, a deliberately conservative choice"
+Danone,equity_risk_premium,5.00%,"Standard unsourced assumption, disclosed as such"
+Danone,beta,0.56,Chosen over an outlier 0.20 raw-beta figure from another source; discrepancy disclosed in model
+Danone,cost_of_debt_pretax,4.25%,Author estimate for an investment-grade food group
+Danone,corporate_tax_rate,25.00%,French standard corporate tax rate
+Danone,wacc,6.93%,"CAPM-derived, see DCF tab"
+Danone,revenue_growth_2026,3.00%,Consensus estimate
+Danone,revenue_growth_2027_2028,3.50%,Company guidance midpoint
+Danone,revenue_growth_2029_2030,2.50%-3.00%,"Tapering assumption, author"
+Danone,terminal_growth,2.00%,"Author assumption, in line with long-run developed-market food sector growth"
+Sonatel,wacc,11.00%,Author assumption for a West African telecom operator
+Sonatel,terminal_growth,3.00%,Author assumption
+Sonatel,revenue_growth_2026_2030,7.0% to 4.0% (tapering),Author assumption
+Tesla,risk_free_rate,4.15%,"US 10Y Treasury yield, Oct. 2026"
+Tesla,equity_risk_premium,5.00%,Standard unsourced assumption
+Tesla,beta,1.92,"Reported 5Y beta, stockanalysis.com"
+Tesla,wacc,13.50%,"CAPM-derived, see DCF tab"
+Tesla,revenue_growth_2026_2027,12.9% / 13.7% (consensus),"Analyst consensus, then author tapering thereafter"
+Tesla,terminal_growth,3.00%,Author assumption

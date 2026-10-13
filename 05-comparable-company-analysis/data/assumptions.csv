@@ -1,0 +1,7 @@
+assumption,value,basis
+danone_ebitda_fy2025,4295 EUR million,"Author-calculated proxy, see DCF model"
+danone_net_debt_fy2025,8430 EUR million,"Mid-point of sourced range, see DCF model"
+danone_shares_outstanding,683.34 million,Derived: market cap / share price
+valuation_range_low_general_mills_multiple,45.80 EUR/share,Peer EV/EBITDA applied to Danone's own EBITDA
+valuation_range_high_dcf_central,84.12 EUR/share,"DCF central scenario, see DCF model"
+current_market_price_reference,59.50 EUR/share,"Euronext Paris, 12/10/2026"

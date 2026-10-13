@@ -1,0 +1,10 @@
+company,ticker,fiscal_year,metric,value,unit,source
+Fnac Darty,EPA:FNAC,FY2023,recurring_operating_income,171,EUR million,Fnac Darty FY2023 annual results press release
+Fnac Darty,EPA:FNAC,FY2024,recurring_operating_income,189,EUR million,Fnac Darty FY2024 annual results press release
+Fnac Darty,EPA:FNAC,FY2025,recurring_operating_income,203,EUR million,Fnac Darty FY2025 annual results press release
+Fnac Darty,EPA:FNAC,FY2025,goodwill_brand_it_impairment,-123,EUR million,"Fnac Darty FY2025 annual results press release, continuing operations"
+Fnac Darty,EPA:FNAC,FY2025,nature_decouvertes_impairment,-60,EUR million,"Fnac Darty FY2025 annual results press release, discontinued operations"
+Fnac Darty,EPA:FNAC,FY2025,undocumented_bridge_residual,-166,EUR million,"NOT public - residual between disclosed items and published net income, flagged for data room request"
+Fnac Darty,EPA:FNAC,FY2025,net_income_published,-146,EUR million,Fnac Darty FY2025 annual results press release
+Fnac Darty,EPA:FNAC,FY2025,gross_financial_debt_ex_ifrs16,958,EUR million,Fnac Darty FY2025 annual results press release
+Fnac Darty,EPA:FNAC,FY2025,net_cash_position_ex_ifrs16,-146,EUR million,"Derived: 958 - 1104 (real FY2025 cash) = -146; Fnac Darty is net cash, not net debt"

@@ -1,0 +1,14 @@
+company,ticker,metric,value,unit,source
+Danone,EPA:BN,ev_ebitda_implied_market,11.43,x,Calculated: (market cap + net debt) / EBITDA
+Danone,EPA:BN,ev_ebitda_implied_dcf,15.35,x,Calculated: DCF enterprise value / EBITDA
+Nestle,SIX:NESN,ev_ebitda,14.1,x,"marketscreener.com, Oct. 2026"
+Nestle,SIX:NESN,pe_ratio,22.4,x,"marketscreener.com, Oct. 2026"
+Unilever,LSE:ULVR,ev_ebitda,12.7,x,"marketscreener.com, Oct. 2026"
+Unilever,LSE:ULVR,pe_ratio,21.5,x,"marketscreener.com, Oct. 2026"
+General Mills,NYSE:GIS,ev_ebitda,9.25,x,"marketscreener.com, Oct. 2026"
+Sonatel,BRVM:SNTS,ev_ebitda_implied_market,4.88,x,Calculated: market cap / EBITDAaL (proxy for EV)
+Sonatel,BRVM:SNTS,ev_ebitda_implied_dcf,6.52,x,Calculated: DCF enterprise value / EBITDAaL
+Maroc Telecom,BVC:IAM,ev_ebitda,4.9,x,"Multiples.vc, 12/10/2026"
+Smileat,n/a (private),revenue_fy2025,21,EUR million,"elconciso.es, forbes.es - test technique Collaboration Capital"
+Yooji,n/a (private),revenue_fy2025_est,14,EUR million,Press estimate - test technique Collaboration Capital
+Popote,n/a (private),revenue_fy2024,7.74,EUR million,Pappers - test technique Collaboration Capital

@@ -1,0 +1,15 @@
+company,ticker,fiscal_year,metric,value,unit,source
+Danone,EPA:BN,FY2025,net_sales,27283,EUR million,Danone FY2025 full-year results press release
+Danone,EPA:BN,FY2025,recurring_operating_income,3665,EUR million,Danone FY2025 full-year results press release
+Danone,EPA:BN,FY2025,free_cash_flow,2799,EUR million,Danone FY2025 full-year results press release
+Danone,EPA:BN,FY2025,net_financial_debt_est,8430,EUR million,"Mid-point of sourced range 8059-8547 EUR million, Danone FY2025 release"
+Danone,EPA:BN,FY2025,share_price,59.5,EUR,"Euronext Paris, 12/10/2026"
+Danone,EPA:BN,FY2025,market_cap,40659,EUR million,"Euronext Paris, 12/10/2026"
+Sonatel,BRVM:SNTS,FY2025,revenue,1923,FCFA billion,"Sonatel FY2025 results, Sikafinance"
+Sonatel,BRVM:SNTS,FY2025,ebitdaal,921,FCFA billion,"Sonatel FY2025 results, Sikafinance"
+Sonatel,BRVM:SNTS,FY2025,free_cash_flow,422,FCFA billion,"Sonatel FY2025 results, Sikafinance"
+Tesla,NASDAQ:TSLA,FY2025,revenue,94827,USD million,"Tesla FY2025 10-K, SEC EDGAR"
+Tesla,NASDAQ:TSLA,FY2025,adjusted_ebitda,14596,USD million,"Tesla FY2025 10-K / 8-K, SEC EDGAR"
+Tesla,NASDAQ:TSLA,FY2025,free_cash_flow,6220,USD million,"Tesla FY2025 10-K, SEC EDGAR"
+Tesla,NASDAQ:TSLA,FY2025,net_cash,35683,USD million,"Tesla FY2025 10-K (cash+investments 44,059 - total debt 8,376), SEC EDGAR"
+Tesla,NASDAQ:TSLA,FY2025,share_price,379.26,USD,"stockanalysis.com, 12/10/2026"

@@ -1,0 +1,7 @@
+company,ticker,metric,value,unit,source
+Fnac Darty,EPA:FNAC,share_price,34.4,EUR,"Euronext Paris, 12/10/2026"
+Fnac Darty,EPA:FNAC,shares_outstanding,29.37,million,Fnac Darty FY2025 annual report
+Fnac Darty,EPA:FNAC,gross_financial_debt_ex_ifrs16_fy2025,958,EUR million,Fnac Darty FY2025 annual results press release
+Fnac Darty,EPA:FNAC,cash_and_equivalents_fy2025,1104,EUR million,Fnac Darty FY2025 annual results press release
+Fnac Darty,EPA:FNAC,net_cash_position_ex_ifrs16_fy2025,-146,EUR million,"Derived: 958 - 1104 = -146; Fnac Darty is net cash (not net debt) ex-IFRS16 at FY2025A."
+Fnac Darty,EPA:FNAC,ebit_fy2025,203,EUR million,Fnac Darty FY2025 annual results press release

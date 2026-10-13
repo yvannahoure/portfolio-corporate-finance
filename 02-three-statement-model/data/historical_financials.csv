@@ -1,0 +1,31 @@
+company,ticker,fiscal_year,metric,value,unit,source
+Fnac Darty,EPA:FNAC,FY2023,revenue,7875,EUR million,Fnac Darty FY2024 annual results press release (26/02/2025)
+Fnac Darty,EPA:FNAC,FY2023,recurring_operating_income,171,EUR million,Fnac Darty FY2024 annual results press release (26/02/2025)
+Fnac Darty,EPA:FNAC,FY2023,net_income_published_gaap,50,EUR million,Fnac Darty FY2024 annual results press release (26/02/2025)
+Fnac Darty,EPA:FNAC,FY2024,revenue,8253,EUR million,Fnac Darty FY2024 annual results press release (26/02/2025); includes ~2 months of Unieuro (acquired Nov. 2024)
+Fnac Darty,EPA:FNAC,FY2024,recurring_operating_income,189,EUR million,Fnac Darty FY2024 annual results press release (26/02/2025)
+Fnac Darty,EPA:FNAC,FY2024,net_income_published_gaap,36,EUR million,Fnac Darty FY2024 annual results press release (26/02/2025)
+Fnac Darty,EPA:FNAC,FY2025,revenue,10330,EUR million,"FY2025 preliminary results press release (26/01/2026) and presentation (25/02/2026); includes Unieuro full year - perimeter break vs FY2024, not organic growth"
+Fnac Darty,EPA:FNAC,FY2025,recurring_operating_income,203,EUR million,FY2025 preliminary results press release (26/01/2026) and presentation (25/02/2026)
+Fnac Darty,EPA:FNAC,FY2025,net_income_published_gaap,-146,EUR million,"FY2025 preliminary results press release (26/01/2026); driven by 183 EUR million of non-recurring impairments"
+Fnac Darty,EPA:FNAC,FY2025,ebitda,667,EUR million,FY2025 presentation (25/02/2026)
+Fnac Darty,EPA:FNAC,FY2025,depreciation_and_amortization,464,EUR million,FY2025 presentation (25/02/2026); includes IFRS16 right-of-use amortization
+Fnac Darty,EPA:FNAC,FY2025,net_financial_charge,118,EUR million,FY2025 presentation (25/02/2026)
+Fnac Darty,EPA:FNAC,FY2025,cash,1104,EUR million,FY2025 presentation (25/02/2026) - real anchor
+Fnac Darty,EPA:FNAC,FY2025,gross_financial_debt_ex_ifrs16,958,EUR million,FY2025 presentation (25/02/2026) - real anchor
+Fnac Darty,EPA:FNAC,FY2025,net_cash_position_ex_ifrs16,-146,EUR million,"Derived: 958 - 1104 = -146; Fnac Darty is net cash (not net debt) ex-IFRS16 at FY2025A"
+Fnac Darty,EPA:FNAC,FY2025,total_assets,8543,EUR million,FY2025 presentation (25/02/2026) - real anchor
+Fnac Darty,EPA:FNAC,FY2025,total_equity,1576,EUR million,FY2025 presentation (25/02/2026) - real anchor
+Fnac Darty,EPA:FNAC,FY2025 opening BS (reconstructed),accounts_receivable,349,EUR million,"Author's plausible reconstruction tying to real totals and anchors (cash, gross debt) - NOT public granular data"
+Fnac Darty,EPA:FNAC,FY2025 opening BS (reconstructed),inventory,1333,EUR million,"Author's plausible reconstruction tying to real totals and anchors - NOT public granular data"
+Fnac Darty,EPA:FNAC,FY2025 opening BS (reconstructed),ppe_and_rou_assets,3493,EUR million,"Author's plausible reconstruction tying to real totals and anchors - NOT public granular data"
+Fnac Darty,EPA:FNAC,FY2025 opening BS (reconstructed),goodwill,2264,EUR million,"Author's plausible reconstruction tying to real totals and anchors - NOT public granular data"
+Fnac Darty,EPA:FNAC,FY2025 opening BS (reconstructed),accounts_payable,1297,EUR million,"Author's plausible reconstruction tying to real totals and anchors - NOT public granular data"
+Fnac Darty,EPA:FNAC,FY2025 opening BS (reconstructed),lease_liabilities_ifrs16,3135,EUR million,"Author's plausible reconstruction tying to real totals and anchors - NOT public granular data"
+Fnac Darty,EPA:FNAC,FY2025 opening BS (reconstructed),other_liabilities,1577,EUR million,"Author's plausible reconstruction tying to real totals and anchors - NOT public granular data"
+Fnac Darty,EPA:FNAC,FY2025,net_debt_incl_ifrs16,2989,EUR million,"Derived: 958 + 3135 - 1104 = 2989; convention used for the DCF equity bridge and cross-check multiple, consistent with real EBITDA already including IFRS16 D&A"
+Fnac Darty,EPA:FNAC,market data (12/10/2026),share_price,34.40,EUR per share,stockanalysis.com - closing price 12/10/2026
+Fnac Darty,EPA:FNAC,market data (14/09/2026),shares_outstanding,29.37,millions,stockanalysis.com - last available figure as of 14/09/2026
+Fnac Darty,EPA:FNAC,market data (12/10/2026),beta,1.07,ratio,stockanalysis.com
+Fnac Darty,EPA:FNAC,market data (12/10/2026),risk_free_rate_oat_10y,4.91%,percent,tradingeconomics.com - French OAT 10-year yield
+Fnac Darty,EPA:FNAC,debt issuance (March 2025),senior_bond_coupon,4.75%,percent fixed,"Senior bond pricing press release (fnacdarty.com) - EUR 300 million, maturity April 2032"

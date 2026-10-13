@@ -1,0 +1,6 @@
+assumption,value,basis
+da_percent_revenue,3.40%,"Author assumption, consistent with the 3-statement and LBO models for cross-project consistency"
+fy2023_ebitda_courant_estimated,438.75 EUR million,Derived: EBIT 171 + D&A estimate
+fy2024_ebitda_courant_estimated,469.6 EUR million,Derived: EBIT 189 + D&A estimate
+fy2025_ebitda_courant_estimated,554.2 EUR million,Derived: EBIT 203 + D&A estimate
+fy2025_ebitda_margin_estimated,5.37%,"Derived, slight dip vs FY2024 attributed to Unieuro dilution"

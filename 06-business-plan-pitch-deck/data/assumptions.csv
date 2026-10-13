@@ -1,0 +1,37 @@
+assumption,value,basis
+active_users_year1_2027f,25000,"Author assumption, fictional company (KobaPay) - starting point for the 5-year projection"
+user_growth_year2,260.0%,Author assumption
+user_growth_year3,145.0%,Author assumption
+user_growth_year4,70.0%,Author assumption
+user_growth_year5,45.0%,"Author assumption - growth decelerates as the user base matures"
+avg_monthly_transaction_volume_per_user_year1,35000 FCFA,Author assumption
+transaction_volume_growth_pa,8.0%,Author assumption
+transactional_take_rate,1.30%,Author assumption
+pct_active_users_using_savings,35.0%,Author assumption
+avg_savings_balance_per_saver_year1,150000 FCFA,Author assumption
+savings_balance_growth_pa,10.0%,Author assumption
+savings_management_fee_on_aum,1.50%,Author assumption
+pct_savers_using_microcredit_from_year3,12.0%,"Author assumption - micro-credit only opens once a savings history exists, from year 3 (2029F)"
+avg_credit_balance_per_borrower,80000 FCFA,Author assumption
+credit_net_interest_margin,9.0%,Author assumption
+customer_acquisition_cost_year1,2500 FCFA per new user,Author assumption
+cac_annual_decline,8.0%,"Author assumption - efficiency gains as the acquisition channel matures"
+tech_hosting_cost_pct_revenue,12.0%,Author assumption
+corporate_tax_rate_uemoa,25.0%,"UEMOA standard corporate tax rate assumption, used generically (not company-specific)"
+capex_amortization_period_years,3,Author assumption
+working_capital_change_pct_of_revenue_change,3.0%,Author assumption
+cash_interest_rate,3.0%,Author assumption
+founders_initial_contribution,50000 EUR,"Author assumption, fictional company"
+seed_round_amount,550000 EUR,"Author assumption, fictional company"
+pre_money_valuation,2450000 EUR,"Author assumption, fictional company"
+post_money_valuation,3000000 EUR,Derived: pre-money + seed round amount
+fcfa_eur_fx_rate,655.957,"Real, public and stable parity - UEMOA franc (XOF) pegged to the euro since 1999"
+esop_pool_pct_post_money,10.0%,Author assumption
+use_of_funds_product_tech,35.0%,Author assumption
+use_of_funds_acquisition_marketing,30.0%,Author assumption
+use_of_funds_key_hiring,25.0%,Author assumption
+use_of_funds_compliance_licence,10.0%,Author assumption
+result_revenue_2031f,4829 M FCFA,Model output
+result_ebitda_margin_2031f,65.9%,Model output
+result_first_positive_ebitda_year,2028F,Model output
+result_revenue_growth_2027f_2031f,x31,Model output

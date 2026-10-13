@@ -1,0 +1,27 @@
+assumption,value,basis
+revenue_growth_pa,2.00%,"Author assumption - moderate growth, consistent with a mature retail sector"
+ebit_margin,2.00%,"Author assumption, aligned with real FY2025A EBIT margin (203/10330 = 2.0%)"
+da_percent_revenue,4.49%,"Computed: real FY2025A D&A (464 EUR million, FY2025 presentation) / real FY2025A revenue - includes IFRS16 right-of-use amortization"
+capex_percent_revenue,2.50%,"Author assumption; for comparison, real published capex ranged EUR 122-176 million across FY2023-FY2025 depending on gross/net-of-disposals basis"
+ar_days,12.3,"Live formula: reconstructed opening balance sheet accounts receivable / revenue x 365 (recalculates if the opening balance sheet changes)"
+inventory_days,47.1,"Live formula: reconstructed opening balance sheet inventory / revenue x 365 (recalculates if the opening balance sheet changes)"
+ap_days,45.8,"Live formula: reconstructed opening balance sheet accounts payable / revenue x 365 (recalculates if the opening balance sheet changes)"
+tax_rate,25.00%,French standard corporate tax rate
+interest_rate_financial_debt,4.50%,"Author assumption, close to the real pre-tax cost of debt (senior bond, 4.75%)"
+interest_rate_lease_liabilities,3.00%,Author assumption
+debt_amortization_per_year,100 EUR million,"Author assumption - simplification; the real debt is a single EUR 300 million senior bond repayable in fine in April 2032"
+min_cash_threshold,400 EUR million,Author assumption - floor above which excess cash is swept to debt repayment
+cash_sweep_rate,50.00%,Author assumption - share of excess cash above the threshold applied to anticipated debt repayment
+dividend_payout_ratio,30.00%,Author assumption (applied only when net income is positive)
+forecast_horizon,FY2026F - FY2030F (5 years),Author assumption
+beta,1.07,Real - stockanalysis.com
+risk_free_rate,4.91%,"Real - tradingeconomics.com (French OAT 10-year yield, 12/10/2026)"
+equity_risk_premium,5.00%,"Author assumption, consistent with other DCFs in the portfolio (Danone/Sonatel/Tesla projects)"
+cost_of_equity_capm,10.26%,"Computed: CAPM = risk-free rate + beta x ERP"
+cost_of_debt_pre_tax,4.75%,"Real - fixed coupon of the senior bond issued March 2025 (EUR 300 million, maturity April 2032)"
+cost_of_debt_after_tax,3.56%,Computed: pre-tax cost of debt x (1 - tax rate)
+weight_equity_e_v,51.3%,Computed from real market capitalization and real gross financial debt
+weight_debt_d_v,48.7%,Computed from real market capitalization and real gross financial debt
+wacc,7.00%,"Computed: CAPM-weighted cost of equity and after-tax cost of debt, weighted by E/V and D/V"
+terminal_growth_rate,1.50%,"Author assumption, deliberately below both explicit revenue growth (2.0%/year) and the WACC"
+net_debt_convention,Includes IFRS16 lease liabilities,"Chosen because real FY2025A EBITDA already includes the D&A add-back of IFRS16 right-of-use assets (post-IFRS16 EBITDA convention), so net debt compared must also include lease liabilities for consistency - mirrors the EBITDA(aL) convention used in the Iliad case study elsewhere in the portfolio"
