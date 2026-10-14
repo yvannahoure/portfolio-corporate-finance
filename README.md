@@ -1,6 +1,8 @@
 # Yvann Ahoure
 
-Analyste finance d'entreprise - valorisation, M&A et contrôle de gestion, avec un regard sur les marchés d'Afrique francophone.
+Analyste Corporate Finance & Transaction Services, avec une solide base en FP&A et un regard sur les marchés d'Afrique francophone.
+
+[Télécharger mon CV (PDF)](./CV_Yvann_Ahoure.pdf)
 
 ## Compétences
 
@@ -35,4 +37,5 @@ Ce qui m'intéresse : lire une entreprise par ses chiffres - un modèle DCF, un 
 ## Contact
 
 - Portfolio en ligne : [yvannahoure.github.io/portfolio-corporate-finance](https://yvannahoure.github.io/portfolio-corporate-finance/)
+- CV : [CV_Yvann_Ahoure.pdf](./CV_Yvann_Ahoure.pdf)
 - LinkedIn : [linkedin.com/in/yvann-ahoure-a41191104](https://www.linkedin.com/in/yvann-ahoure-a41191104/)

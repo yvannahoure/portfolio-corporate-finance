@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Yvann Ahoure - Portfolio Corporate Finance</title>
-<meta name="description" content="Portfolio de 6 études de cas en finance d'entreprise : DCF, modèle 3 états, LBO, due diligence financière, comparables boursiers, M&amp;A, business plan et pitch deck.">
+<meta name="description" content="Yvann Ahoure, analyste Corporate Finance &amp; Transaction Services. Portfolio de 6 études de cas en finance d'entreprise : DCF, modèle 3 états, LBO, due diligence financière, comparables boursiers, M&amp;A, business plan et pitch deck.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
 <style>
@@ -79,6 +79,18 @@ p.lede + p.lede{margin-top:16px}
 .entry .org{font-weight:600;font-size:16.5px}
 .entry .role2{color:var(--muted);font-size:14.5px;margin-top:2px}
 .entry .when{font-family:var(--font-mono);font-size:12.5px;color:var(--muted);white-space:nowrap;font-variant-numeric:tabular-nums}
+.summary{background:var(--surface);border:1px solid var(--border);border-left:3px solid var(--accent);padding:18px 22px;margin:0 0 26px;max-width:66ch}
+.summary p{margin:0;font-size:15.5px;line-height:1.65}
+.summary p + p{margin-top:8px}
+.summary strong{font-weight:600}
+.btn-cv{display:inline-flex;align-items:center;gap:8px;background:var(--accent);color:var(--bg);text-decoration:none;font-family:var(--font-mono);font-size:13px;font-weight:600;padding:8px 14px;border-radius:3px}
+.btn-cv:hover{opacity:.88}
+.entry .ach{grid-column:1 / -1;font-size:14.5px;line-height:1.6;color:var(--fg);margin-top:8px;max-width:70ch}
+.toollist{display:grid;gap:12px;margin-top:4px}
+.toolrow{display:grid;grid-template-columns:150px 1fr;gap:12px;align-items:baseline;font-size:14.5px;line-height:1.55}
+.toolrow .t{font-family:var(--font-mono);font-size:12.5px;font-weight:600;color:var(--fg)}
+.toolrow .proof{color:var(--muted)}
+@media (max-width:520px){ .toolrow{grid-template-columns:1fr;gap:2px} }
 footer{margin-top:88px;padding-top:28px;border-top:1px solid var(--border)}
 footer p{color:var(--muted);font-size:13.5px;max-width:56ch;line-height:1.6}
 .toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(8px);background:var(--fg);color:var(--bg);font-family:var(--font-mono);font-size:12.5px;padding:9px 16px;border-radius:4px;opacity:0;pointer-events:none;transition:opacity .2s, transform .2s}
@@ -92,8 +104,8 @@ footer p{color:var(--muted);font-size:13.5px;max-width:56ch;line-height:1.6}
     <span class="mark">YA</span>
     <div class="navlinks">
       <a href="#profil">Profil</a>
-      <a href="#projets">Projets</a>
       <a href="#parcours">Parcours</a>
+      <a href="#projets">Projets</a>
       <a href="#competences">Compétences</a>
       <a href="#contact">Contact</a>
     </div>
@@ -102,20 +114,60 @@ footer p{color:var(--muted);font-size:13.5px;max-width:56ch;line-height:1.6}
 
 <div class="wrap">
 
-  <p class="eyebrow">Corporate Finance - Paris / Afrique de l'Ouest</p>
+  <p class="eyebrow">Corporate Finance &amp; Transaction Services - Paris</p>
   <h1>Yvann Ahoure</h1>
-  <p class="role">Analyste finance d'entreprise - valorisation, M&amp;A et contrôle de gestion, avec un regard sur les marchés d'Afrique francophone.</p>
+  <p class="role">Analyste Corporate Finance &amp; Transaction Services, avec une solide base en FP&amp;A et un regard sur les marchés d'Afrique francophone.</p>
+
+  <div class="summary" id="profil">
+    <p><strong>MSc Corporate Finance &amp; FinTech</strong> (Clermont School of Business). Expériences en valorisation d'entreprises privées, analyse de cibles M&amp;A, contrôle de gestion et analyse financière, en France, aux États-Unis et en Côte d'Ivoire.</p>
+    <p>Maîtrise des modèles DCF, LBO, comparables et 3 états intégrés. Disponible pour des postes d'analyste en corporate finance, transaction services, valorisation ou FP&amp;A.</p>
+  </div>
 
   <div class="contact-row">
+    <a class="btn-cv" href="CV_Yvann_Ahoure.pdf" target="_blank" rel="noopener">Télécharger mon CV (PDF)</a>
     <a class="link" href="https://www.linkedin.com/in/yvann-ahoure-a41191104/" target="_blank" rel="noopener">LinkedIn</a>
     <a class="link" href="https://github.com/yvannahoure/portfolio-corporate-finance" target="_blank" rel="noopener">Code source sur GitHub</a>
     <button class="copybtn" id="emailBtn" type="button">yvannahoure@outlook.fr - copier</button>
   </div>
 
-  <section id="profil">
-    <h2>Profil</h2>
-    <p class="lede">Diplômé d'un MSc Corporate Finance &amp; FinTech à la Clermont School of Business, je me suis construit un parcours à cheval entre plusieurs terrains : valorisation d'entreprises privées aux États-Unis (Mercer Capital), pilotage financier d'une ONG internationale depuis Paris (AMREF Health Africa France), screening de cibles M&amp;A à Abidjan (First Capital Group), et contrôle de gestion d'une structure de santé en Côte d'Ivoire (EMSG).</p>
-    <p class="lede">Ce qui m'intéresse : lire une entreprise par ses chiffres, qu'il s'agisse d'un modèle DCF, d'un rapprochement bancaire ou d'un tableau de bord, et faire le pont entre la rigueur financière occidentale et des marchés africains en pleine structuration.</p>
+  <section id="parcours">
+    <h2>Parcours</h2>
+
+    <div class="entry">
+      <div>
+        <div class="org">Mercer Capital</div>
+        <div class="role2">Financial Analyst Intern - Memphis (à distance)</div>
+      </div>
+      <div class="when">04/2026 - 08/2026</div>
+      <div class="ach">Valorisation d'entreprises privées (DCF, comparables boursiers et transactionnels), analyses de sensibilité sur les hypothèses clés et rédaction de rapports de valorisation en anglais pour des clients.</div>
+    </div>
+
+    <div class="entry">
+      <div>
+        <div class="org">AMREF Health Africa France</div>
+        <div class="role2">Analyste Financier, Programmes Humanitaires - Paris</div>
+      </div>
+      <div class="when">10/2025 - 03/2026</div>
+      <div class="ach">Pilotage budgétaire et trésorerie consolidée de 4 programmes dans 5 pays : 6 comptes bancaires, plus de 1,2 M€ de flux annuels, rapprochements bancaires, préparation aux audits et reporting sous Power BI.</div>
+    </div>
+
+    <div class="entry">
+      <div>
+        <div class="org">First Capital Group</div>
+        <div class="role2">Investment Analyst - Abidjan</div>
+      </div>
+      <div class="when">04/2024 - 06/2024</div>
+      <div class="ach">Screening de plus de 20 entreprises (télécom, solaire) et sélection de 4 cibles prioritaires ; modèles DCF, comparables et 3 états, un business plan complet et 4 pitch decks pour des investisseurs institutionnels.</div>
+    </div>
+
+    <div class="entry">
+      <div>
+        <div class="org">EMSG - Espace Médical Saint Georges</div>
+        <div class="role2">Contrôleur Financier - Abidjan</div>
+      </div>
+      <div class="when">06/2023 - 08/2023</div>
+      <div class="ach">Gestion budgétaire et de trésorerie d'une clinique privée, tableaux de bord Excel et Power BI, rapprochements bancaires et revue comptable avec mise en place d'actions correctives.</div>
+    </div>
   </section>
 
   <section id="projets">
@@ -131,8 +183,8 @@ footer p{color:var(--muted);font-size:13.5px;max-width:56ch;line-height:1.6}
         </div>
         <p class="pdesc">DCF à deux étages sur Danone (étude principale), avec Sonatel et Tesla comme études secondaires pour montrer la méthode sur des profils très différents : groupe mature de consommation, télécom émergent, valeur de croissance. WACC construit par CAPM à partir de données de marché réelles.</p>
         <div class="pstats">
-          <div class="pstat"><div class="v">87,4 €</div><div class="l">valeur implicite Danone, contre 59,5 € de cours (+46,9 %)</div></div>
-          <div class="pstat"><div class="v">15,87x</div><div class="l">VE/EBITDA implicite du DCF vs 11,43x de marché</div></div>
+          <div class="pstat"><div class="v">84,1 €</div><div class="l">valeur implicite Danone, contre 59,5 € de cours (+41,4 %)</div></div>
+          <div class="pstat"><div class="v">15,35x</div><div class="l">VE/EBITDA implicite du DCF vs 11,43x de marché</div></div>
         </div>
         <div class="plinks">
           <a href="https://github.com/yvannahoure/portfolio-corporate-finance/tree/main/01-dcf-valuation" target="_blank" rel="noopener">Explorer le dossier complet →</a>
@@ -159,7 +211,7 @@ footer p{color:var(--muted);font-size:13.5px;max-width:56ch;line-height:1.6}
     </div>
 
     <div class="pcard">
-      <img class="pshot" src="03-lbo-model/screenshots/LBO_Model_tab-5.jpg" alt="Onglet Returns du modèle LBO : MOIC, IRR et pont de création de valeur">
+      <img class="pshot" src="03-lbo-model/screenshots/LBO_Model_tab-4.jpg" alt="Onglet Returns du modèle LBO : MOIC, IRR et pont de création de valeur">
       <div class="pbody">
         <div class="phead">
           <h3>Modèle LBO</h3>
@@ -167,8 +219,8 @@ footer p{color:var(--muted);font-size:13.5px;max-width:56ch;line-height:1.6}
         </div>
         <p class="pdesc">Exercice illustratif de rachat par effet de levier sur Fnac Darty : sources &amp; emplois, échéancier de dette avec cash sweep, calcul du rendement du sponsor et pont de création de valeur décomposé en quatre contributions, réconcilié exactement avec l'écart de valeur des fonds propres entrée-sortie.</p>
         <div class="pstats">
-          <div class="pstat"><div class="v">4,97x</div><div class="l">MOIC sur un horizon de détention de 5 ans</div></div>
-          <div class="pstat"><div class="v">37,8 %</div><div class="l">IRR du sponsor, sans pari sur l'expansion de multiple</div></div>
+          <div class="pstat"><div class="v">2,50x</div><div class="l">MOIC sur un horizon de détention de 5 ans</div></div>
+          <div class="pstat"><div class="v">20,1 %</div><div class="l">IRR du sponsor, sans pari sur l'expansion de multiple</div></div>
         </div>
         <div class="plinks">
           <a href="https://github.com/yvannahoure/portfolio-corporate-finance/tree/main/03-lbo-model" target="_blank" rel="noopener">Explorer le dossier complet →</a>
@@ -203,7 +255,7 @@ footer p{color:var(--muted);font-size:13.5px;max-width:56ch;line-height:1.6}
         </div>
         <p class="pdesc">Fourchette de valorisation pour Danone par application des multiples de ses pairs cotés, confrontée au DCF et au cours de marché. Complété par un vrai mandat de screening M&amp;A (test technique de recrutement pour Collaboration Capital) identifiant une cible d'acquisition pour Evian dans l'alimentation infantile biologique.</p>
         <div class="pstats">
-          <div class="pstat"><div class="v">45,8-87,4 €</div><div class="l">fourchette de valorisation Danone par comparables + DCF</div></div>
+          <div class="pstat"><div class="v">45,8-84,1 €</div><div class="l">fourchette de valorisation Danone par comparables + DCF</div></div>
           <div class="pstat"><div class="v">Smileat</div><div class="l">cible M&amp;A retenue pour Evian (21 M€ de CA, +26 %)</div></div>
         </div>
         <div class="plinks">
@@ -231,42 +283,6 @@ footer p{color:var(--muted);font-size:13.5px;max-width:56ch;line-height:1.6}
     </div>
   </section>
 
-  <section id="parcours">
-    <h2>Parcours</h2>
-
-    <div class="entry">
-      <div>
-        <div class="org">Mercer Capital</div>
-        <div class="role2">Financial Analyst Intern - Memphis (à distance)</div>
-      </div>
-      <div class="when">04/2026 - 08/2026</div>
-    </div>
-
-    <div class="entry">
-      <div>
-        <div class="org">AMREF Health Africa France</div>
-        <div class="role2">Financial Analyst, Programmes Humanitaires - Paris</div>
-      </div>
-      <div class="when">10/2025 - 03/2026</div>
-    </div>
-
-    <div class="entry">
-      <div>
-        <div class="org">First Capital Group</div>
-        <div class="role2">Investment Analyst - Abidjan</div>
-      </div>
-      <div class="when">04/2024 - 06/2024</div>
-    </div>
-
-    <div class="entry">
-      <div>
-        <div class="org">EMSG - Espace Médical Saint Georges</div>
-        <div class="role2">Contrôleur Financier - Abidjan</div>
-      </div>
-      <div class="when">06/2023 - 08/2023</div>
-    </div>
-  </section>
-
   <section id="competences">
     <h2>Compétences</h2>
     <div class="skillgrid">
@@ -288,19 +304,24 @@ footer p{color:var(--muted);font-size:13.5px;max-width:56ch;line-height:1.6}
           <span class="chip">Budget vs réalisé</span><span class="chip">Forecasting</span><span class="chip">Rapprochements bancaires</span><span class="chip">Revue comptable</span><span class="chip">Tableaux de bord</span>
         </div>
       </div>
-      <div class="skillgroup">
-        <div class="k">Outils</div>
-        <div class="chips">
-          <span class="chip">Excel avancé (TCD, formules)</span><span class="chip">PowerPoint</span><span class="chip">Power BI</span><span class="chip">Python (notions)</span>
-        </div>
+    </div>
+    <div class="skillgroup" style="margin-top:30px">
+      <div class="k">Outils, et où je les ai utilisés</div>
+      <div class="toollist">
+        <div class="toolrow"><span class="t">Excel avancé</span><span class="proof">6 modèles financiers complets (DCF, LBO, 3 états, due diligence), zéro erreur de formule</span></div>
+        <div class="toolrow"><span class="t">PowerPoint</span><span class="proof">4 pitch decks pour investisseurs institutionnels (First Capital), pitch deck de levée seed (KobaPay)</span></div>
+        <div class="toolrow"><span class="t">Power BI</span><span class="proof">tableaux de bord de suivi budgétaire et de trésorerie (AMREF, EMSG)</span></div>
+        <div class="toolrow"><span class="t">Python</span><span class="proof">notions, manipulation et analyse de données</span></div>
+        <div class="toolrow"><span class="t">IA générative</span><span class="proof">Claude, pour la recherche et la structuration d'analyses</span></div>
       </div>
     </div>
   </section>
 
   <footer id="contact">
-    <p>Basé à Paris, ouvert aux opportunités en finance d'entreprise en France comme en Afrique de l'Ouest. Le plus simple pour échanger : LinkedIn ou email.</p>
+    <p>Basé à Paris, ouvert aux opportunités en corporate finance, transaction services et FP&amp;A, en France comme en Afrique de l'Ouest. Le plus simple pour échanger : LinkedIn ou email.</p>
     <div class="contact-row" style="margin-top:14px">
       <a class="link" href="https://www.linkedin.com/in/yvann-ahoure-a41191104/" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="link" href="CV_Yvann_Ahoure.pdf" target="_blank" rel="noopener">CV (PDF)</a>
       <a class="link" href="https://github.com/yvannahoure/portfolio-corporate-finance" target="_blank" rel="noopener">GitHub</a>
       <button class="copybtn" id="emailBtn2" type="button">yvannahoure@outlook.fr - copier</button>
     </div>
